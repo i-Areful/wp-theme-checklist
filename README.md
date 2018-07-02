@@ -1,2 +1,65 @@
 # wp-theme-checklist
-A complete checklist (todo) for WordPress theme development scratch 
+A complete checklist (todo) for WordPress theme development scratch.
+
+- [ ] Decide a name and slug for your theme
+- [ ] Initialize the git repository
+- [ ] Enable WordPress debugging
+    - [ ] define('WP_DEBUG', true);
+    - [ ] Install "Query Monitor" plugin;
+    - [ ] Install "WP PHP Console" plugin;
+    - [ ] Install "Rewrite Rules Inspector" plugin;
+- [ ] Select a starter theme. I recommend Underscore.me
+    - [ ] Edit style.css
+    - [ ] Edit readme.txt
+    - [ ] Edit readme.md
+    - [ ] Edit screenshot.png
+- [ ] Bootstraping
+    - [ ] Add bootstrap.css
+    - [ ] Add bootstrap.js
+    - [ ] Add fonts
+- [ ] Build tools and compilers
+    - [ ] SASS compiler
+    - [ ] Assets minifier
+- [ ] SASS Style variables
+    - [ ] Colors
+    - [ ] Layout
+    - [ ] Typography
+- [ ] Basic Templates
+    - [ ] header.php
+        - [ ] Favicon
+        - [ ] Logo
+    - [ ] footer.php
+    - [ ] sidebar.php
+    - [ ] Custom page templates
+        - [ ] no-sidebar.php
+        - [ ] with-right-sidebar.php
+        - [ ] with-left-sidebar.php
+        - [ ] fluid-width.php
+- [ ] Build core pages
+    - [ ] index.php
+    - [ ] page.php
+    - [ ] front-page.php
+    - [ ] home.php
+    - [ ] archive.php
+    - [ ] single.php
+        - [ ] Add theme support post formats
+        - [ ] Post formats
+            - [ ] aside
+            - [ ] gallery
+            - [ ] link
+            - [ ] image
+            - [ ] quote
+            - [ ] status
+            - [ ] video
+            - [ ] audio
+            - [ ] chat
+    - [ ] comments.php
+    - [ ] category.php
+    - [ ] tag.php
+    - [ ] author.php
+    - [ ] date.php
+    - [ ] search.php
+    - [ ] attachment.php
+    - [ ] image.php
+    - [ ] 404.php
+- [ ] Theme Options
